@@ -476,3 +476,243 @@ nav a:hover {
 
   transform: translateY(-3px);
 }
+
+/* =========================
+   Mobile Responsive Styles
+========================= */
+
+@media (max-width: 768px) {
+  /* =========================
+     General Sections
+  ========================= */
+
+  section {
+    padding: 60px 6%;
+  }
+
+  /* =========================
+     Navigation
+  ========================= */
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 6%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 18px;
+  }
+
+  nav ul a {
+    font-size: 0.9rem;
+  }
+
+  /* =========================
+     Hero Section
+  ========================= */
+
+  #hero {
+    min-height: auto;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 40px;
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.4rem;
+
+    line-height: 1.2;
+  }
+
+  .hero-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-text button {
+    margin: 5px;
+
+    padding: 11px 16px;
+  }
+
+  .hero-image img {
+    width: 280px;
+
+    height: 280px;
+
+    max-width: 100%;
+  }
+
+  /* =========================
+     About Section
+  ========================= */
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  /* =========================
+     Skills Section
+  ========================= */
+
+  #skills h2,
+  #projects h2,
+  #experience h2,
+  #certifications h2,
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  /* =========================
+     Projects Section
+  ========================= */
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: auto;
+
+    max-height: 250px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-links {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+  .project-links a {
+    text-align: center;
+
+    margin-right: 0;
+  }
+
+  /* =========================
+     Experience Section
+  ========================= */
+
+  .experience-card {
+    padding: 20px;
+  }
+
+  .experience-card h3 {
+    font-size: 1.35rem;
+  }
+
+  .experience-card h4 {
+    font-size: 1rem;
+  }
+
+  .experience-card li {
+    font-size: 0.95rem;
+  }
+
+  /* =========================
+     Certifications
+  ========================= */
+
+  .certification-card {
+    padding: 25px 20px;
+  }
+
+  .certificate-btn {
+    width: 100%;
+  }
+
+  /* =========================
+     Certificate Modal
+  ========================= */
+
+  .modal img {
+    max-width: 92%;
+    max-height: 75%;
+  }
+
+  .close-btn {
+    top: 15px;
+
+    right: 20px;
+
+    font-size: 35px;
+  }
+
+  /* =========================
+     Resume Modal
+  ========================= */
+
+  #resume-modal iframe {
+    width: 92%;
+
+    height: 80%;
+  }
+
+  .close-resume {
+    top: 15px;
+
+    right: 20px;
+
+    font-size: 35px;
+  }
+
+  /* =========================
+     Contact Section
+  ========================= */
+
+  #contact p {
+    font-size: 1rem;
+  }
+
+  .contact-links {
+    flex-direction: column;
+
+    align-items: stretch;
+
+    max-width: 300px;
+
+    margin: 0 auto;
+  }
+
+  .contact-links a {
+    text-align: center;
+  }
+}
