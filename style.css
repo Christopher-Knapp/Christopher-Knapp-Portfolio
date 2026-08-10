@@ -183,9 +183,10 @@ nav a:hover {
 }
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+
 .project-card {
   background-color: #1e293b;
   border-radius: 12px;
