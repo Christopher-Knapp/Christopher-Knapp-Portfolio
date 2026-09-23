@@ -578,16 +578,6 @@ nav a:hover {
   color: #3b82f6;
 }
 
-#resume-modal iframe {
-  width: min(900px, 85%);
-  height: 90%;
-
-  border: none;
-  border-radius: 10px;
-
-  background-color: #ffffff;
-}
-
 
 /* =========================
    Contact Section
@@ -900,11 +890,6 @@ footer {
     right: 20px;
 
     font-size: 35px;
-  }
-
-  #resume-modal iframe {
-    width: 94%;
-    height: 80%;
   }
 
 
